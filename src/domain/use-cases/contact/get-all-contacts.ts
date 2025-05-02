@@ -10,7 +10,7 @@ export class GetAllContacts implements GetAllContactsUseCase {
     }
 
     async execute(): Promise<Contact[]> {
-        const result = await this.contactRepository.getContacts()
+        const result = await this.contactRepository.getContacts();
         return result;
     }
 }

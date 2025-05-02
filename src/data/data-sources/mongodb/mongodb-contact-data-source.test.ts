@@ -1,4 +1,3 @@
-
 import { MongoDBContactDataSource } from '../../../../src/data/data-sources/mongodb/mongodb-contact-data-source'
 import { DatabaseWrapper } from '../../interfaces/data-sources/database-wrapper'
 

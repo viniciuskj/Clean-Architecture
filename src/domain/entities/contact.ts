@@ -3,4 +3,4 @@ export interface Contact {
     email: string;
     firstName: string;
     surname: string;
-}
+};

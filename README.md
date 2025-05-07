@@ -132,7 +132,3 @@ Creates a new contact.
   "message": "Created"
 }
 ```
-
-## Development Notes
-
-The implementation is currently missing the `getContacts()` method in the `ContactRepositoryImpl` class.

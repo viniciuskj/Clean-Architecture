@@ -11,7 +11,8 @@ export class ContactRepositoryImpl implements ContactRepository {
     }
     
     getContacts(): Promise<Contact[]> {
-        throw new Error("Method not implemented.");
+        const result = await this.contactDataSource.getAll()
+        return result;
     }
 
     async createContact(contact: Contact): Promise<boolean> {
